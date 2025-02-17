@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Load Data
 @st.cache_data
 def load_data():
-    return pd.read_csv("data.csv")
+    return pd.read_csv("Datasets/heart.csv")
 
 # Train and Save Model (if not already saved)
 @st.cache_resource
